@@ -1,0 +1,31 @@
+/**News Card**/
+.themeNewsCard .flatCard .post{
+	-webkit-box-shadow: 0 0px 1.5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0px 1.5px rgba(0,0,0,0.2);
+    box-shadow: 0 0px 1.5px rgba(0,0,0,0.2);
+    background-clip: padding-box;
+	border:0px;
+}
+.themeNewsCard .flatCard .cardCTA {margin-top: 0px; margin-bottom: 10px;}
+.themeNewsCard .flatCard.onlyTextCard .cardCTA{ margin-bottom:22px;}
+.themeNewsCard .flatCard.onlyTextCard .postedTxt { 
+    position:static; 
+    transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    margin-top:0px;
+    clear:both;
+} 
+.themeNewsCard .flatCard.onlyTextCard .postedTxt { padding: 0; margin: 10px 0; text-align:left;} 
+.themeNewsCard .flatCard.onlyTextCard .postedTxt.decorateTxt { margin: 60px 0; text-align:center;} 
+.flatCard.onlyTextCard .postContent p{padding: 0;}
+.themeNewsCard .flatCard h4{ margin:0px;}
+.themeNewsCard .flatCard.onlyTextCard h4 .authorDetails{position:static;} 
+.themeNewsCard .flatCard.onlyTextCard h4 .postNetwork{    
+    transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    left:auto;
+    top:auto;
+    right:15px;
+}

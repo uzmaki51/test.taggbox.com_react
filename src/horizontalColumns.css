@@ -1,0 +1,202 @@
+.horizontalColumns .ladda-spinner,
+.horizontalColumns .ladda-progress {
+	display: none!important
+}
+/* .horizontalColumns .slick-slide,
+.horizontalColumns .slick-slide:focus,
+.horizontalColumns .slick-slide:active {
+	outline: none
+} */
+.horizontalColumns .flatCard .post {
+	background-clip: padding-box;
+	border: 0;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .22);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .22);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .22);
+	min-height: 230px;
+	margin: 10px 0 5px
+}
+.horizontalColumns .flatCard * {
+	text-align: center
+}
+.horizontalColumns .authorDetails img {
+	position: static;
+	float: none;
+	clear: both;
+	margin: -50px 0 0;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #000
+}
+.horizontalColumns .authorDetails .authrHandle,
+.horizontalColumns .authorDetails .timePost
+ {
+	float: none
+}
+
+/* .horizontalColumns .sepratedot {
+	float: none
+} */
+
+
+.horizontalColumns .authorDetails .authrHandleTime {
+	line-height: 100%
+}
+.horizontalColumns .authorDetails .authrHandleTime * {
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0;
+	line-height: inherit;
+	float: none;
+	clear: both
+}
+.horizontalColumns .authorDetails .authrHandleTime .sepratedot {
+	/* margin: 2px 0 0!important; */
+	margin: 2px 4px 0!important
+}
+.horizontalColumns .flatCard h4 .postNetwork {
+	width: auto;
+	height: auto;
+	float: none;
+	margin: 15px auto 0
+}
+.horizontalColumns .flatCard h4 .postNetwork i {
+	font-size: 30px!important
+}
+.horizontalColumns .flatCard .cardCTA,
+.horizontalColumns .flatCard.onlyTextCard .cardCTA {
+	margin-top: 10px
+}
+.horizontalColumns .flatCard.onlyTextCard h4 .postNetwork,
+.horizontalColumns .flatCard.onlyTextCard .postContent .postedTxt {
+	position: static;
+	transform: none;
+	-moz-transform: none;
+	-webkit-transform: none
+}
+.horizontalColumns .flatCard.onlyTextCard .authorDetails img {
+	margin-top: 10px
+}
+.horizontalColumns .flatCard.onlyTextCard .authorDetails .postAuthorName {
+	margin-top: 10px
+}
+.horizontalColumns .flatCard .post p {
+	line-height: 24px
+}
+.horizontalColumns .flatCard .authorDetails {
+	margin-top: -34px
+}
+.horizontalColumns .flatCard .authorDetails .postAuthorName {
+	font-size: 14px;
+	max-width: 80%;
+	margin: 0 auto
+}
+.horizontalColumns .flatCard .authorDetails .authrHandle,
+.horizontalColumns .flatCard .authorDetails .timePost {
+	font-size: 12px
+}
+.horizontalColumns .flatCard .postContentCard {
+	padding: 10px 15px
+}
+.horizontalColumns .authorDetails img {
+	margin: 0 auto 15px auto;
+	width: 45px;
+	height: 45px;
+	border: 2px solid #fff;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(120, 120, 120, .3);
+	-webkit-box-shadow: 0 1px 2px rgba(120, 120, 120, .3);
+	-moz-box-shadow: 0 1px 2px rgba(120, 120, 120, .3)
+}
+.horizontalColumns .flatCard.onlyTextCard .post {
+	text-align: center;
+	padding: 150px 0 0;
+	min-height: auto
+}
+.horizontalColumns .flatCard.onlyTextCard .postedTxt {
+	margin-bottom: 40px
+}
+.horizontalColumns .flatCard.onlyTextCard h4 .postNetwork {
+	margin: 0 auto
+}
+.horizontalColumns .flatCard.onlyTextCard .authorDetails,
+.horizontalColumns .flatCard.onlyVideoNImg .authorDetails {
+	margin-top: 0
+}
+.horizontalColumns .flatCard.onlyTextCard h4 .authorDetails {
+	position: absolute;
+	bottom: auto;
+	top: 50px;
+	width: 100%;
+	left: 0
+}
+.horizontalColumns .flatCard.onlyTextCard .authorDetails img {
+	margin: 0 auto;
+}
+.horizontalColumns .flatCard.onlyVideoNImg .postContentCard {
+	position: absolute;
+	width: 100%;
+	padding: 20px 0;
+	top: 220px;
+	bottom: 0
+}
+.horizontalColumns .flatCard.onlyVideoNImg .postContentCard h4 {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%)
+}
+.horizontalColumns .flatCard.onlyVideoNImg .authorDetails img {
+	margin-top: 0
+}
+.horizontalColumns .slick-prev,
+.horizontalColumns .slick-next {
+	width: 40px;
+	height: 60px;
+	z-index: 10;
+	top:200px;
+	transition: all ease 0.3s
+}
+.horizontalColumns .slick-prev {
+	left: -35px
+}
+.horizontalColumns .slick-next {
+	right: -35px
+}
+.horizontalColumns .slick-prev:before,
+.horizontalColumns .slick-next:before {
+	color: inherit!Important;
+	font-size: 30px
+}
+
+.horizontalColumns .slick-prev, .horizontalColumns .slick-next{
+	color: #000;
+}
+@media only screen and (max-width: 768px) {
+	.horizontalColumns .slick-prev {
+		left: -25px
+	}
+	.horizontalColumns .slick-next {
+		right: -25px
+	}
+}
+@media only screen and (max-width: 480px) {
+	.slick-prev {
+		left: -20px
+	}
+	.slick-next {
+		right: -20px
+	}
+}
+@media only screen and (max-width: 380px) {
+	.horizontalColumns .slick-prev {
+		left: -15px
+	}
+	.horizontalColumns .slick-next {
+		right: -15px
+	}
+}

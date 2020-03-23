@@ -1,0 +1,111 @@
+/**Classic Card Updated**/
+.themeClassicCard .flatCard .post{
+	-webkit-box-shadow: 0 0px 1.5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0px 1.5px rgba(0,0,0,0.2);
+    box-shadow: 0 0px 1.5px rgba(0,0,0,0.2);
+    background-clip: padding-box;
+	border:0px;
+	border-radius: 7px;
+}
+.themeClassicCard .authrHandleTime{float: left;}
+.themeClassicCard .flatCard .cardCTA {margin-top: 0px; margin-bottom: 10px;}
+.themeClassicCard .flatCard.onlyTextCard .cardCTA{ margin-bottom:22px;}
+.themeClassicCard .flatCard.onlyTextCard .postedTxt { 
+    position:static; 
+    transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    margin-top:0px;
+    clear:both;
+} 
+
+
+.themeClassicCard .flatCard.onlyTextCard .postedTxt { padding: 0; margin: 10px 0; text-align:left;} 
+
+.themeClassicCard .flatCard.onlyTextCard .postedTxt.decorateTxt { margin: 60px 0; text-align:center;} 
+
+.flatCard.onlyTextCard .postContent p{padding: 0;}
+
+.themeClassicCard .flatCard h4{ margin:0px;}
+
+.themeClassicCard .flatCard.onlyTextCard h4 .authorDetails{position:static;} 
+
+.themeClassicCard .flatCard.onlyTextCard h4 .postNetwork{    
+    transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    left:auto;
+    top:auto;
+    right:15px;
+    line-height: 38px; 
+}
+/**Classic Card**/
+/* .themeClassicCard .flatCard .post{
+	overflow:visible;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    background-clip: padding-box;
+    border: 0;
+}
+.themeClassicCard .flatCard.onlyTextCard .cardCTA {margin-top: 0px;}
+.themeClassicCard .flatCard.onlyTextCard .postedTxt { padding: 0; margin: 10px 0; text-align:left;}    
+.themeClassicCard .flatCard.onlyTextCard .postContent p{ padding:0;}
+.themeClassicCard .flatCard .rating { margin-top:0px;}    
+.themeClassicCard .flatCard h4 .postNetwork {
+    position: absolute;
+    top: 10px;
+    right: -7px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.themeClassicCard .flatCard .postNetwork:after{
+    content: "";
+    border-left: 7px solid transparent;
+    border-top: 7px solid;
+    position: absolute;
+    bottom: -7px;
+    right: 0px;
+    transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+}
+.themeClassicCard .flatCard.onlyTextCard h4 .postNetwork{
+    bottom: auto;
+    right: -7px;
+    top: 10px;
+    left: auto;
+    transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+}
+.themeClassicCard .flatCard .postNetwork i.fa {
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFF !important;
+}
+.themeClassicCard .flatCard .authorDetails{ min-height:20px;}
+.themeClassicCard .flatCard.onlyTextCard h4 .authorDetails{ position: relative; top:auto; bottom: 0; width: 100%;}
+.themeClassicCard .flatCard .authorDetails .sepratedot{ display:none !important;}
+.themeClassicCard .authorDetails .postAuthorName{max-width:140px;}
+.themeClassicCard .authorDetails .authrHandleTime{ overflow:visible;}
+.themeClassicCard .authorDetails .timePost{ float: right; margin-top: 0px; position: absolute; right: 0; top: 0;}
+.themeStart5 .postNetwork[data-network="Twitter"] {background: #00aced; color: #00aced;}
+.themeStart5 .postNetwork[data-network="Instagram"]{background: #cd486b; color: #cd486b;}
+.themeStart5 .postNetwork[data-network="Instagram Business"]{background: #386690; color: #386690;}
+.themeStart5 .postNetwork[data-network="Facebook"]{ background: #3A5795; color: #3A5795;}
+.themeStart5 .postNetwork[data-network="Google+"]{ background: #D62221; color: #D62221;}
+.themeStart5 .postNetwork[data-network="Pinterest"]{ background: #BD081C; color: #BD081C;}
+.themeStart5 .postNetwork[data-network="Flickr"]{background: #006ADD; color: #006ADD;}
+.themeStart5 .postNetwork[data-network="You Tube"]{ background: #DA2625; color: #DA2625;}
+.themeStart5 .postNetwork[data-network="Vimeo"]{ background: #1AB7EA; color: #1AB7EA;}
+.themeStart5 .postNetwork[data-network="Vine"]{ background: #00B489; color: #00B489;}
+.themeStart5 .postNetwork[data-network="LinkedIn"]{ background: #0177B5; color: #0177B5;}
+.themeStart5 .postNetwork[data-network="Tumblr"]{ background: #35465D; color: #35465D;}
+.themeStart5 .postNetwork[data-network="RSS"]{ background: #FE9900; color: #FE9900;}
+.themeStart5 .postNetwork[data-network="Custom Posts"]{ background: #ffcc33; color: #ffcc33;}
+.themeStart5 .postNetwork[data-network="Yelp"]{ background: #cd2400; color: #cd2400;}
+.themeStart5 .postNetwork[data-network="Whatsapp"]{ background: #7ad06d; color: #7ad06d;}
+.themeStart5 .postNetwork[data-network="SMS"]{ background: #eb902f; color: #eb902f;} 
+.themeStart5 .postNetwork[data-network="Slack"]{ background: #3eb991; color: #3eb991;}   */
