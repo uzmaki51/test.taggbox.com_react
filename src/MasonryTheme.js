@@ -62,7 +62,7 @@ class LazyImage extends Component {
       clientRect.top >= 0 &&
       clientRect.left >= 0 &&
       clientRect.bottom <=
-        (window.innerHeight || document.documentElement.clientHeight) &&
+        (window.innerHeight + 300 || document.documentElement.clientHeight + 300) &&
       clientRect.right <=
         (window.innerWidth || document.documentElement.clientWidth)
     );
@@ -216,7 +216,7 @@ class MasonryTheme extends React.Component{
                          <LazyImage
                             images={person.postFileNew1}
                             loaderIcon="http://lamama.org/wp-content/plugins/gallery-by-supsystic/src/GridGallery/Galleries/assets/img/loading.gif"
-                            className={`imagelazy img-responsive ${this.props.newApi.wall.Personalization.blurEffect === 1 ? 'completeLazyLoad' : ''}  `}
+                            className={`imagelazy blur-image img-responsive ${this.props.newApi.wall.Personalization.blurEffect === 1 ? 'completeLazyLoad' : ''}  `}
                             width="100%"
                          />
                     
